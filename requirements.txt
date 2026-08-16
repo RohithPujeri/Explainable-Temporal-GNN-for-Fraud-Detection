@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+networkx
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Deep learning / GNNs
+# NOTE: install torch first, matching your CUDA version if using GPU:
+#   https://pytorch.org/get-started/locally/
+torch
+# torch-geometric depends on torch being installed first; see:
+#   https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+torch-geometric
+
+# Explainability
+shap
